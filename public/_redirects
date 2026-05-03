@@ -1,0 +1,8 @@
+# Cloudflare Pages redirects for legacy .html legal URLs.
+# Format: <source> <destination> <status>
+/legal/privacy.html         /legal/privacy          301
+/legal/terms.html           /legal/terms            301
+/legal/sla.html             /legal/sla              301
+/legal/license.html         /legal/license          301
+/legal/acceptable-use.html  /legal/acceptable-use   301
+/legal/refunds.html         /legal/refunds          301
