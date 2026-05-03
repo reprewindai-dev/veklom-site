@@ -1,0 +1,29 @@
+# Veklom — Governed AI Control Plane
+
+> Veklom builds the governed AI control plane: deterministic authorization,
+> audit-grade evidence, and operational control for production AI workloads.
+> CO2 Router is our flagship product for environmental authorization.
+
+## Core pages
+
+- [Home](https://veklom.com/): What Veklom does and why governance-first AI control matters.
+- [About](https://veklom.com/about): Company background and product brand.
+- [Products](https://veklom.com/products): Veklom product portfolio, including CO2 Router.
+- [Marketplace](https://veklom.com/marketplace): Policy packs, governance integrations, and CO2 Router add-ons.
+- [Pricing](https://veklom.com/pricing): Evaluation, Pro, and Enterprise plans for the control plane.
+- [Compliance](https://veklom.com/compliance): SOC 2 status, HIPAA/BAA availability, residency, deployment modes, and audit artifacts.
+- [Contact](https://veklom.com/contact): Sales and partnership contact, including trial, demo, and architecture review intents.
+
+## Legal
+
+- [Privacy](https://veklom.com/legal/privacy): Data collection, use, and rights.
+- [Terms](https://veklom.com/legal/terms): Terms of service for site and products.
+- [Acceptable Use](https://veklom.com/legal/acceptable-use): Permitted and prohibited use of Veklom services.
+- [SLA](https://veklom.com/legal/sla): Availability targets and service credits.
+- [License](https://veklom.com/legal/license): Software and SDK license terms.
+- [Refunds](https://veklom.com/legal/refunds): Refund policy for subscriptions, marketplace items, and services.
+
+## Contact
+
+- Sales and general: contact@veklom.com
+- Security disclosures: security@veklom.com
