@@ -7,7 +7,6 @@ const config: Config = {
       colors: {
         ink: '#0b0f1f',
         fog: '#e6e8ef',
-        slate: '#141a2b',
         accent: '#2db0ff',
       },
     },
