@@ -13,6 +13,7 @@ const staticPaths = [
   '/legal/terms',
   '/legal/sla',
   '/legal/license',
+  '/legal/vendor-agreement',
   '/legal/acceptable-use',
   '/legal/refunds',
 ]

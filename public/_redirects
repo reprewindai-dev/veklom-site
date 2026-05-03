@@ -6,3 +6,8 @@
 /legal/license.html         /legal/license          301
 /legal/acceptable-use.html  /legal/acceptable-use   301
 /legal/refunds.html         /legal/refunds          301
+
+# Vendor Agreement legacy aliases
+/legal/vendor-agreement.html /legal/vendor-agreement 301
+/legal/vendor.html           /legal/vendor-agreement 301
+/vendor-agreement            /legal/vendor-agreement 301
