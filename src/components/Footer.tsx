@@ -6,6 +6,7 @@ const legal = [
   { href: '/legal/acceptable-use', label: 'Acceptable Use' },
   { href: '/legal/sla', label: 'SLA' },
   { href: '/legal/license', label: 'License' },
+  { href: '/legal/vendor-agreement', label: 'Vendor Agreement' },
   { href: '/legal/refunds', label: 'Refunds' },
 ]
 
