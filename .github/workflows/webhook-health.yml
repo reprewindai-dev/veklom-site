@@ -1,0 +1,31 @@
+name: Webhook Health Check
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+jobs:
+  health-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check API webhook endpoint
+        run: |
+          STATUS=$(curl -s -o /dev/null -w "%{http_code}" \
+            -X POST https://api.veklom.com/webhooks/health \
+            -H "Content-Type: application/json" \
+            -H "Authorization: Bearer ${{ secrets.WEBHOOK_HEALTH_TOKEN }}" \
+            -d '{"ping":true}' \
+            --max-time 10)
+          echo "HTTP status: $STATUS"
+          if [ "$STATUS" != "200" ] && [ "$STATUS" != "204" ]; then
+            echo "Webhook health check failed with status $STATUS"
+            exit 1
+          fi
+
+      - name: Notify on failure
+        if: failure()
+        run: |
+          curl -s -X POST https://hooks.slack.com/services/${{ secrets.SLACK_WEBHOOK_PATH }} \
+            -H "Content-Type: application/json" \
+            -d '{"text":"⚠️ Veklom webhook health check FAILED. Check https://api.veklom.com/webhooks/health"}'
